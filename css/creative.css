@@ -160,11 +160,14 @@ header {
   color: white;
 }
 
-header#hello{
-background-image: url('../img/header1.jpg')
+#hello{
+background-image: url('../img/header1.jpg');
+background-position: center;
+width: 100%;
+min-height: auto;
 }
 
-header#bye {
+#bye {
   background-image: url('../img/header2.jpg');
 }
 
@@ -385,7 +388,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
+  background-color: #F05F4#F05F400;
   border-color: #F05F40;
 }
 .btn-primary .badge {
@@ -425,32 +428,29 @@ body {
 }
 
 #decline {
-  position: absolute;
-  left: 20%;
-  bottom: -200px;
+  position: relative;
+  left: -10%;
+  top: 600px;
 }
 
 #accept {
-  position: absolute;
-  right: 20%;
-  bottom: -200px;
+  position: relative;
+  right: -10%;
+  top: 600px;
 }
 
 #who {
-position: absolute;
-left: 30%;
-right: 30%;
-top: 15%; 
 font-weight: 700;
 font-size: 400%;
+color: white;
 }
 
 #bb {
-  position: absolute;
-  bottom: 10%;
-  left: 33%;
-  right: 33%;
   font-weight: 700;
-  text-transform: uppercase;
+  font-size: 400%;
+  color: white;
+  position: relative;
+  top: 650px;
 
 }
+
